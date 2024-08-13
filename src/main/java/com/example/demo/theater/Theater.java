@@ -3,6 +3,7 @@ package com.example.demo.theater;
 import java.util.List;
 
 import com.example.demo.screen.Screen;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -17,4 +18,25 @@ public class Theater {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private String name;
+	
+	@OneToMany(mappedBy = "theater")
+	@JsonManagedReference
+	private List<Screen> screens;
+	
+	public List<Screen> getScreens(){
+		return screens;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
 }
