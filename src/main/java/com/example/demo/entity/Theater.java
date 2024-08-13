@@ -1,8 +1,7 @@
-package com.example.demo.theater;
+package com.example.demo.entity;
 
 import java.util.List;
 
-import com.example.demo.screen.Screen;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import jakarta.persistence.Entity;

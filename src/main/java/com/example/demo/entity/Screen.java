@@ -1,9 +1,7 @@
-package com.example.demo.screen;
+package com.example.demo.entity;
 
 import java.util.List;
 
-import com.example.demo.show.Show;
-import com.example.demo.theater.Theater;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 

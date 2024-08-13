@@ -1,10 +1,4 @@
-package com.example.demo.booking;
-
-import com.example.demo.screen.Screen;
-import com.example.demo.seat.Seat;
-import com.example.demo.show.Show;
-import com.example.demo.theater.Theater;
-import com.example.demo.user.User;
+package com.example.demo.entity;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;

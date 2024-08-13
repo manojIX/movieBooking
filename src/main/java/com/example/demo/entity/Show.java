@@ -1,8 +1,7 @@
-package com.example.demo.show;
+package com.example.demo.entity;
 
 import java.time.LocalDateTime;
 
-import com.example.demo.screen.Screen;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import jakarta.persistence.Entity;

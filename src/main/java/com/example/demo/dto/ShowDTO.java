@@ -1,9 +1,9 @@
-package com.example.demo.show;
+package com.example.demo.dto;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
-import com.example.demo.seat.Seat;
+import com.example.demo.entity.Seat;
 
 public class ShowDTO {
 	private int id;

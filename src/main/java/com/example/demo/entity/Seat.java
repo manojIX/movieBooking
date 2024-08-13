@@ -1,6 +1,4 @@
-package com.example.demo.seat;
-
-import com.example.demo.screen.Screen;
+package com.example.demo.entity;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
